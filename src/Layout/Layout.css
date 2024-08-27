@@ -1,0 +1,18 @@
+/* src/Layout/Layout.css */
+.layout {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  .main-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .content-container {
+    margin: 20px auto;
+    width: 1000px; /* 고정된 너비 */
+    text-align: center;
+  }
+  
